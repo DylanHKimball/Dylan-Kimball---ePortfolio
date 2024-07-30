@@ -1,6 +1,4 @@
-# Dylan Kimball - ePortfolio
-
-## Code Review
+# Code Review
 
 [Code Review](https://youtu.be/Lm_ubFRt0e8)
 
