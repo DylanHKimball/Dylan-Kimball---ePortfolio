@@ -1,10 +1,11 @@
 name: Dylan Kimball's ePortfolio
 theme: jekyll-theme-Slate
+---
 title: Dylan Kimball's ePortfolio
 description: Final project for CS-499, Computer Science Capstone at SNHU
+---
 
 <style type="text/css">
-
 h1.title {
   font-size: 40px;
   text-align: center;
