@@ -1,0 +1,105 @@
+<!-- HTML file that contains the code to display the login page and allow a user
+	 enter their login information -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top Travel Destinations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #828282;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Sytle the Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the login and add buttons */
+.web-buttons {
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+}
+
+/* Style the login and add buttons */
+.login {
+  padding: 40px;
+  background-color: #bef0e2;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Top Title Style Bar containing return button -->
+<div style="background:#333;padding:10px">
+  	<div class="web-buttons">
+		<a href="/">
+			<button>Return</button>
+		</a>
+	</div>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Top Travel Destinations</h1>
+  <p>You <b>need</b> to visit!</p>
+</div>
+
+<!-- Bottom Title Style Bar -->
+<div style="background:#333;padding:10px">
+	<br>
+</div>
+
+<!-- Login box that contains field for username, password, and login button -->
+<div class="flex-container">
+	<br><br>
+	<div class="login">
+        <p style="font-size: 40px"><b>Log In</b></p>
+		<div th:if="${param.error}" class="alert alert-error">
+			Invalid username or password	
+		</div>
+		<div th:if="${param.logout}" class="alert alert-success">
+			You have been logged out.	
+		</div>
+		<form th:action="@{/login}" method="post">
+        	<input type="text" name="username" placeholder="username" required>
+        	<br><br>
+        	<input type="text" name="password" placeholder="password" required>
+        	<br><br>
+			<div class="form-actions">
+        		<input type="submit" value="Login">
+			</div>
+			<br><br>
+    	</form>
+	</div>
+    <br><br>
+</div>
+
+<!-- Bottom Page Style Bar -->
+<div style="background:#333;padding:40px">
+  <br>
+</div>
+
+</body>
+</html>

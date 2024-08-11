@@ -1,0 +1,6 @@
+﻿  Dice.cpp
+  FarkleGame.cpp
+  Game.cpp
+  Generating Code...
+  Dice.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  FarkleDiceGame.vcxproj -> C:\Users\light\source\repos\FarkleDiceGame\x64\Debug\FarkleDiceGame.exe
