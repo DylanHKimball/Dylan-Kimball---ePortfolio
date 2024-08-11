@@ -1,0 +1,38 @@
+﻿  Source.cpp
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(296,32): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(343,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(344,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1100,179): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1101,178): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1102,192): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1103,179): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1104,178): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1105,181): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1109,179): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1110,180): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1111,184): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1112,192): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1121,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1122,86): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1126,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1127,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1128,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1129,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1130,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1132,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1133,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1134,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1135,91): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1136,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1145,91): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1149,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1150,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1238,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1239,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1247,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1248,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1256,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1257,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1258,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\light\source\repos\7-1 Project\7-1 Project\Source.cpp(1259,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  7-1 Project.vcxproj -> C:\Users\light\source\repos\7-1 Project\Debug\7-1 Project.exe

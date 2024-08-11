@@ -1,0 +1,4 @@
+﻿  Game.cpp
+C:\Users\light\source\repos\FarkleDiceGame\Game.cpp(1114,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Dice.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  FarkleDiceGame.vcxproj -> C:\Users\light\source\repos\FarkleDiceGame\Debug\FarkleDiceGame.exe

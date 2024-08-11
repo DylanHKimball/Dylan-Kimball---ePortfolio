@@ -1,0 +1,2 @@
+C:\Users\light\source\repos\FarkleDiceGame\x64\Debug\FarkleDiceGame.vcxproj.AssemblyReference.cache
+C:\Users\light\source\repos\FarkleDiceGame\x64\Debug\FarkleDiceGame.exe

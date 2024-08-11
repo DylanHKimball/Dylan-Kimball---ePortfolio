@@ -1,0 +1,8 @@
+﻿  Game.cpp
+C:\Users\light\source\repos\FarkleDiceGame_Original\Game.cpp(130,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\light\source\repos\FarkleDiceGame_Original\Game.cpp(436,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\light\source\repos\FarkleDiceGame_Original\Game.cpp(484,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\light\source\repos\FarkleDiceGame_Original\Game.cpp(930,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\light\source\repos\FarkleDiceGame_Original\Game.cpp(935,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  FarkleGame.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  FarkleDiceGame_Original.vcxproj -> C:\Users\light\source\repos\FarkleDiceGame_Original\x64\Debug\FarkleDiceGame_Original.exe

@@ -1,0 +1,141 @@
+<!-- HTML file that contains the code to display the main home page of the application
+     which contains the destinations and login button -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top Travel Destinations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #828282;
+}
+
+.flex-container > div {
+  background-color: #bef0e2;
+  height: 1025px;
+  width: 1200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Sytle the Header/logo Title */
+.header {
+  padding: 15px;
+  font-size: 35px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the login and add buttons */
+.web-buttons {
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+}
+
+/* Style the destination card buttons */
+.card-bottom {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+/* Style the image box */
+.image {
+  background-color: #aaa;
+  padding: 5px;
+}
+
+/* Style the card title */
+.destination-title {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Style the card description */
+.destination-description {
+  padding: 2px;
+  height: 160px;
+  font-size: 20px;
+  text-align: center;
+  background: #92e7d0;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Top Title Style Bar containing login button -->
+<div style="background:#333;padding:10px">
+  	<div class="web-buttons">
+		<a href="login">
+			<button>Login</button>
+		</a>
+	</div>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Top Travel Destinations</h1>
+  <p>You <b>need</b> to visit!</p>
+</div>
+
+<!-- Bottom Title Style Bar containing add destinatino button -->
+<div style="background:#333;padding:10px">
+	<br>
+</div>
+
+<!-- Destination Cards -->
+<div class="flex-container">
+	<div th:each = "dest : ${destinations}">
+		<div class="card bg-info">
+			<div class="destination-title">
+				<h3 th:text = "${dest.title}" class="card-header"> </h3>
+			</div>
+			<div class="card-body">
+				<p class="card-text">
+					<img width="800" height="600" th:src="@{${dest.image}}" alt="Photo upload confirmation" class="rounded">
+				</p>
+			</div>
+			<div class="destination-description">
+				<p th:text = "${dest.description}" class="card-footer"></p>
+			</div>
+			<div class="card-bottom">
+				<br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Bottom Page Style Bar -->
+<div style="background:#333;padding:40px">
+  <br>
+</div>
+
+</body>
+</html>

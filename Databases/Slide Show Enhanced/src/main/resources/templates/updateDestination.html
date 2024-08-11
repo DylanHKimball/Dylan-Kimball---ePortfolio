@@ -1,0 +1,103 @@
+<!-- HTML file that contains the code to display the destination information and update page and allows a user
+	 enter the updated destination information -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top Travel Destinations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #828282;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Sytle the Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the login and add buttons */
+.web-buttons {
+  padding: 5px;
+  display: flex;
+  justify-content: right;
+  background-color: #333;
+}
+
+/* Style the destination test and button */
+.modify-destination {
+  padding: 40px;
+  background-color: #bef0e2;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Top Title Style Bar containing return button -->
+<div style="background:#333;padding:10px">
+  	<div class="web-buttons">
+		<a href="/admin">
+			<button>Return</button>
+		</a>
+	</div>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Top Travel Destinations</h1>
+  <p>You <b>need</b> to visit!</p>
+</div>
+
+<!-- Bottom Title Style Bar -->
+<div style="background:#333;padding:10px">
+	<br>
+</div>
+
+<!-- Add Destinatoin box that contains field for destination image, title, description, and submit button -->
+<!-- Returns information as a Destination object which is then added to the database -->
+<div class="flex-container">
+	<br><br>
+	<div class="modify-destination">
+        <p style="font-size: 40px"><b>Update Destination</b></p>
+		<form th:action="@{/update}" method="post">
+			<input type="hidden" name="id" th:value="${destination.get().destID}">
+        	<input type="text" name="image" th:value="${destination.get().image}" required>
+        	<br><br>
+        	<input type="text" name="title" th:value="${destination.get().title}" required>
+        	<br><br>
+			<input type="text" name="description" th:value="${destination.get().description}" required>
+			<br><br>
+			<div class="form-actions">
+        		<input type="submit" value="Submit">
+			</div>
+			<br><br>
+    	</form>
+	</div>
+    <br><br>
+</div>
+
+<!-- Bottom Page Style Bar -->
+<div style="background:#333;padding:40px">
+  <br>
+</div>
+
+</body>
+</html>
