@@ -10,7 +10,7 @@ The above link leads to a code review for each artificat contained in this ePort
 
 <h1 align="center"> Sofware Design & Engineering </h1>
 
-![3D Scene](https://github.com/user-attachments/assets/3dc2311b-d2bb-45c4-ac99-d1fed2152681)
+<img align="center" width="100 height="100 src="https://github.com/user-attachments/assets/3dc2311b-d2bb-45c4-ac99-d1fed2152681"</img>
 
 The artifact that I chose for the Software Design & Engineering category is my final project from CS-330 Computational Graphics and Visualtion. This program utilzes OpenGL to create and render a scene of a desk, with two monitors, a baseball, waterbottle, and a stuffed animal tarantual in new window on a users copmtuer. To enhance this project I first focuses on reworking some parts of the program to improve the efficency, after that I implemented functions to handle aniamtion and movement while the render is running. I decided to include this project as it showcases my coding ability in the C++ language as well as my ability to properly format and make readable code. Through the enhancement I made on this project I showcase my ability to find faults and inefficiencies in programs and implement effective solutions to fix these issues. To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, and to view the original and ehanced code, please click the link below.
 
