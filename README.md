@@ -34,7 +34,7 @@ The above link leads to a code review for each artificat contained in this ePort
 ![Rendered Image](images/3DScene.png)
 
 <p align="center">
-  <img width="800 height="800 src="images/3DScene.png">
+  <img width="800 height="800 src="https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/blob/main/images/3DScene.png">
 </p>
 
 The artifact that I chose for the Software Design and Engineering category is my final project from CS-330 Computational Graphics and Visualtion. This program utilzes OpenGL to create and render a scene of a desk, with two monitors, a baseball, waterbottle, and a stuffed animal tarantual in new window on a users copmtuer. To enhance this project I first focuses on reworking some parts of the program to improve the efficency, after that I implemented functions to handle aniamtion and movement while the render is running. I decided to include this project as it showcases my coding ability in the C++ language as well as my ability to properly format and make readable code. Through the enhancement I made on this project I showcase my ability to find faults and inefficiencies in programs and implement effective solutions to fix these issues. To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, and to view the original and ehanced code, please click the link below.
