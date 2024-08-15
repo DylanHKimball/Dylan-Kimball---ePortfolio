@@ -31,8 +31,9 @@ The above link leads to a code review for each artificat contained in this ePort
 <!-- // CATEGORY 1: SOFWARE DESIGN & ENGINEERING SECTION // -->
 <h1 align="center"> Sofware Design & Engineering </h1>
 
+![Rendered Image](images/3DScene.png)
+
 <p align="center">
-  ![Rendered Image](images/3DScene.png)
   <img width="800 height="800 src="images/3DScene.png">
 </p>
 
