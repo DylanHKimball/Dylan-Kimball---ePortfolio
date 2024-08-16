@@ -4,11 +4,11 @@ Hello, my name is Dylan Kimball and this is an ePortfolio showcasing my work and
 
 <!-- // TABLE OF CONTENTS // -->
 <h1 align="center"> Table of Contents </h1>
-- 1: Professional Self-Assessment
-- 2: Code Review
-- 3: Software Design & Engineering
-- 4: Algorithms and Data Structure
-- 5: Databases
+1. Professional Self-Assessment
+2. Code Review
+3. Software Design & Engineering
+4. Algorithms & Data Structure
+5. Databases
 
 <!-- // PROFESSIONAL SELF-ASSESSMENT SECTION // -->
 <h1 align="center"> 1: Professional Self Assessment </h1>
