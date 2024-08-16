@@ -35,7 +35,18 @@ The above link leads to a code review for each artificat contained in this ePort
   <img width="600" height="400" src="images/3DScene.png"/>
 </p>
 
-The artifact that I chose for the Software Design and Engineering category is my final project from CS-330 Computational Graphics and Visualtion. This program utilzes OpenGL to create and render a scene of a desk, with two monitors, a baseball, waterbottle, and a stuffed animal tarantual in new window on a users copmtuer. To enhance this project I first focuses on reworking some parts of the program to improve the efficency, after that I implemented functions to handle aniamtion and movement while the render is running. I decided to include this project as it showcases my coding ability in the C++ language as well as my ability to properly format and make readable code. Through the enhancement I made on this project I showcase my ability to find faults and inefficiencies in programs and implement effective solutions to fix these issues. To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, and to view the original and ehanced code, please click the link below.
+The artifact that I chose for the Software Design and Engineering category is my final project from CS-330 Computational Graphics and Visualtion. This program utilzes OpenGL to create and render a scene of a desk, with two monitors, a baseball, waterbottle, and a stuffed animal tarantual in new window on a users copmtuer. I decided to include this project as it showcases my coding ability in the C++ language, my ability to properly format and make readable code, and my ability to utlizies well-founded techniques and implement innovative solutions. Through the enhancement I made on this project I showcase my ability to find faults and inefficiencies in programs and implement effective solutions to fix these issues. 
+
+List of Enhancements performed:
+- Implemented keyboard inputs to allow user to select lighting by pressing 1 or 2 and then manipulate the selected light using the arrow keys for front, left, back, and right, and = & - for up and down.
+- Implemented keyboard functinality to allow user to press L and have the selected light be placed on the current camera location.
+- Implemented keyboard functinality to allow usesr to press F and have the selected light oribit the scene until F is pressed again.
+- Reworked the sphere / cylinder drawing function to implement additional functionality that would allow for multiple objects to be drawn with a single call.
+- Utilized new sphere / cylinder drawing function to reduce the calls required to draw the tarantula legs from 10 to 1.
+- Implemented new function to handle the animation of the ball increasing in size and jumping up and down and forwards and backwards.
+- Implemented new funciton to handle the animation of the tarantual standing up and laying back down.
+
+To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, my experience working on the enhancement, and to view the original and enhanced code, please click the link below.
 
 [Artifact 1: Graphics Rendering Engine](https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/tree/main/Software%20Design%20%26%20Engineering)
 
@@ -46,7 +57,18 @@ The artifact that I chose for the Software Design and Engineering category is my
   <img width="600" height="400" src="images/FarkleTitle.png"/>
 </p>
 
-The artifact that I chose for the Algorithms and Data Structure category is my final project from IT-312 Software Development with C++.NET. The program allows users to play the dice game Farkle through the console, there needs to be at least two players, but players can view the rules, roll the dice, store dice, remove dice from storage, and end their turn just like the actual Farkle game. The original project runs of a double array system to store rollable dice and stored dice, this system was inefficient and required multiple of the same checks to be done on a single turn. I enhanced this project by completely reworking the data structure to run of a single array of dice objects that would be able to store information on each die. Once the new system was implemented I reworked the scoring and point die algorithms to include more scoring options from the Farkle game such as three pairs of two, a straight, and four, five, and six of a kind matches. I included this project in my ePortfolio as it's another great example of my C++ coding ability as well as my code formatting ability. This project also utilizes the principles and practices of Object-Oriented Programming to create reusable, efficient, and scalable code. To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, and to view the original and enhanced code, please click the link below.
+The artifact that I chose for the Algorithms and Data Structure category is my final project from IT-312 Software Development with C++.NET. The program allows users to play the dice game Farkle through the console, there needs to be at least two players, but players can view the rules, roll the dice, store dice, remove dice from storage, and end their turn just like the actual Farkle game. The original project runs of a double array system to store rollable dice and stored dice, this system was inefficient and required multiple of the same checks to be done on a single turn. I included this project in my ePortfolio as it's another great example of my C++ coding ability as well as my code formatting ability. This project also utilizes the principles and practices of Object-Oriented Programming to create reusable, efficient, and scalable code. 
+
+List of Enhancements performed:
+- Reworked the data structure from a double array system to a single array of dice objects (added the Dice.h & Dice.cpp files)
+- Reworked every function in the game class to utilize the new data structure and remove any redundent code.
+- Completley reworked the check for point dice function to include the new scoring options of a straight, three pairs, and four, five, and six of a kind matches.
+- Completley reworked the calculate point dice function to include the new scoring options of a straight, three pairs, and four, five, and six of a kind matches.
+- The algorithm used to check each dice in the above two functions was changed to utilize a more efficient approach that involved less checks.
+- Added a check matches function that assists the above two functions and checks for a straight or three pairs.
+- Added a settings page to the main menu that allows users to chane the score required to enter the game and the score required to win the game.
+
+To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, my experience working on the enhancement, and to view the original and enhanced code, please click the link below.
 
 [Artifact 2: Farkle Dice Game](https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/tree/main/Algorithms%20and%20Data%20Structure)
 
@@ -57,6 +79,19 @@ The artifact that I chose for the Algorithms and Data Structure category is my f
   <img width="600" height="400" src="images/Website.png"/>
 </p>
 
-The artifact that I chose for the Databases category is a simple java program I created for CS-250 Software Development Lifecycle. The original program created a simple slideshow on the users comptuer that would allow them to click through five preset travel destinations. To enhance this program I completely reworked from the ground up to create a fully functional website that utilizes a cloud based NoSQL database. Normal users can view the website and scroll through the different travel destinations stored in the database. An admin user can login through login information stored on the database and either add, modify, or remove destinations from the database. I included this project in my ePortfolio as java is a widely used language and this project showcases my abilities with the language. This program also showcases my full-stack development skills, ability to utilize different softwares and libraries to create a cohesive and functional program, and my ability to expand and improve a program and implement new concepts and knowledge. When starting this project I had no idea how to build a website, so this is also a great showcase of my ability to learn new concepts and effectively apply them. To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, and to view the original and enhanced code, please click the link below.
+The artifact that I chose for the Databases category is a simple java program I created for CS-250 Software Development Lifecycle. The original program created a simple slideshow on the users comptuer that would allow them to click through five preset travel destinations.  I included this project in my ePortfolio as java is a widely used language and this project showcases my abilities with the language. This program also showcases my full-stack development skills, ability to utilize different softwares and libraries to create a cohesive and functional program, and my ability to expand and improve a program and implement new concepts and knowledge. When starting this project I had no idea how to build a website, so this is also a great showcase of my ability to learn new concepts and effectively apply them. 
+
+List of Enhancements performed:
+- This program was completely reworked from the ground up to create a fully functional website.
+- All travel destination data and authenticated user data is stored in a NoSQL cloud database through MongoDB Atlas.
+- The website utilizes Spring Boot, Spring Security, Maven Dependencies, MongoDB support, and Thymeleaf functionality.
+- The website implements a Rest CRUD API.
+- Any user can access the main home page that displays the travel destinations, any other page requires a login to access.
+- Once an authenticated user logs in with an authenticated username and password in the database they are brought to an admin page.
+- The admin page gives the admins functionality to add, modify, and delete records from the database.
+- The database also contains a backup for important travel records in case something happens to the collection being utilized.
+- All information is displayed using HTML, Thymeleaf, and CSS Flexbox.
+
+To go into more detail about why I included this project, the enhancements done on this project, my goals with this enhancement, my experience working on the enhancement, and to view the original and enhanced code, please click the link below.
 
 [Artifact 3: Slide Show Website](https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/tree/main/Databases)
