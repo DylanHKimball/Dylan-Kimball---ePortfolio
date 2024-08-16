@@ -1,9 +1,17 @@
 <h1 align="center"> Introduction </h1>
 
-Hello, my name is Dylan Kimball and this is an ePortfolio showcasing my work and projects created during my time in SNHU's Computer Science program. I started this program nearly 3 years ago and have created multiple projects during that time. In the ePortfolio I have selected three previous projects I have created and enhanced them to bring improved functionality, efficiency, and formatting. These enhancements showcase the skills I have gained and knowledge I have learned during my time in the Computer Science program.
+Hello, my name is Dylan Kimball and this is an ePortfolio showcasing my work and projects created during my time in SNHU's Computer Science program. I started this program nearly 3 years ago and have created multiple projects during that time. In the ePortfolio I have selected three previous projects I have created and enhanced them to bring improved functionality, efficiency, and formatting. These enhancements showcase the skills I have gained and knowledge I have learned during my time in the SNHU Computer Science program.
+
+<!-- // TABLE OF CONTENTS // -->
+<h1 align="center"> Table of Contents </h1>
+- 1: Professional Self-Assessment
+- 2: Code Review
+- 3: Software Design & Engineering
+- 4: Algorithms and Data Structure
+- 5: Databases
 
 <!-- // PROFESSIONAL SELF-ASSESSMENT SECTION // -->
-<h1 align="center"> Self Assessment </h1>
+<h1 align="center"> 1: Professional Self Assessment </h1>
 
 I started my journey in the SNHU Computer Science program back in April 2021 and through it, I have gained a vast amount of knowledge and built a wide range of skills. When I started this program I didn’t a goal in mind for where I wanted to go with my career, as I took more classes I became more and more interested in the Computer Science industry and specifically Data Analytics and Data Engineering. Since then, I have made the most of every class by learning every bit of information I can and taking on challenges to really build my skill set and knowledge. I wanted to make sure I would be a valuable asset for whatever company I would work for. Now that I’m nearing the end of my journey here at SNHU I can confidently say that I have built up a great library of knowledge and skills that I am ready to continue to develop and expand during my career.
 
@@ -22,14 +30,14 @@ In this ePortfolio I have selected three different artifacts I have created duri
 **Course outcome 5:** I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources through my enhancement for artifact 3, the Slide Show Website. Since this website was going to be accessible by anyone on the web I made security a priory and took multiple steps to ensure the protection of company data. Starting with the database, I moved all data to a NoSQL database utilizing MongoDB Atlas to gain cloud functionality and the extra layer of security provided by MongoDB Atlas. When it comes to the website, I ensured that all pages other than the main home page required an authenticated login to access. Any requests without an authenticated login will be routed to the login page. Authenticated user logins can only be added by an authorized individual that has access to the database to avoid any unwanted people registering for the website. All passwords stored in the database are encrypted using Bcrypt for an extra level of security that ensures passwords are only known by the individuals who are created them.
 
 <!-- // CODE REVIEW SECTION // -->
-<h1 align="center"> Code Review </h1>
+<h1 align="center"> 2: Code Review </h1>
 
 [Code Review](https://youtu.be/Lm_ubFRt0e8)
 
 The above link leads to a code review for each artificat contained in this ePortfolio. The video is split into three categories relating to the Software Engineering and Design, Algorithms and Data Structuree, and Databases. The video goes over the functionality of the original code, the problems and ineficiencies with the original code, and the planned enhancements to improve the code and meet specified outcomes.
 
 <!-- // CATEGORY 1: SOFWARE DESIGN & ENGINEERING SECTION // -->
-<h1 align="center"> Sofware Design & Engineering </h1>
+<h1 align="center"> 3: Sofware Design & Engineering </h1>
 
 <p align="center">
   <img width="600" height="400" src="images/3DScene.png"/>
@@ -51,7 +59,7 @@ To go into more detail about why I included this project, the enhancements done 
 [Artifact 1: Graphics Rendering Engine](https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/tree/main/Software%20Design%20%26%20Engineering)
 
 <!-- // CATEGORY 2: ALGORITHMS AND DATA STRUCTURE SECTION // -->
-<h1 align="center"> Algorithms & Data Structure </h1>
+<h1 align="center"> 4: Algorithms & Data Structure </h1>
 
 <p align="center">
   <img width="600" height="400" src="images/FarkleTitle.png"/>
@@ -73,7 +81,7 @@ To go into more detail about why I included this project, the enhancements done 
 [Artifact 2: Farkle Dice Game](https://github.com/DylanHKimball/Dylan-Kimball---ePortfolio/tree/main/Algorithms%20and%20Data%20Structure)
 
 <!-- // CATEGORY 3: DATABASES SECTION // -->
-<h1 align="center"> Databases </h1>
+<h1 align="center"> 5: Databases </h1>
 
 <p align="center">
   <img width="600" height="400" src="images/Website.png"/>
