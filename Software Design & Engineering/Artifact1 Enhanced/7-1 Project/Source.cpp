@@ -21,12 +21,10 @@
 *       - P = Change between perspective and orthographic view | - - = move selected light Down
 * 
 *    ENHANCEMENTS:
-*		- User can manipulate lights and move them around the scene
+*	- User can manipulate lights and move them around the scene
+*       - Pressing F will cause selected light to orbit around the scene
 *       - Tarantual legs are now drawn through one function call instead of 10 seperate calls
 *       - Animation added to make baseball increase in size and jump up and down across the desk
-* 
-*		- NOT IMPLEMENTED: Pressing F will cause selected light to orbit around the scene
-*              - Currently working on implementing this feature
 */
 
 #include <GLEW/glew.h>
